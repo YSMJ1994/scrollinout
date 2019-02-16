@@ -25,7 +25,8 @@ Vue.use(scrollInOut)
 <template>
     <!-- 参数为dom实体的判定面积，如下面 [0%,100%] 代表dom面积为整个dom的高宽，
     面积只要有一点出现在视野范围内或离开视野范围则调用传入的函数，目前只支持传入函数。 -->
-    <div v-scroll-in-out:[0%,100%]="stateChange">
+    <!-- 绑定节点需要有固定宽高，如果自适应内容高度，如下的写法则会缺少占位空间 -->
+    <div style="height: 30px" v-scroll-in-out:[0%,100%]="stateChange">
         <span v-if="show">{{message}}</span>
     </div>
 </template>

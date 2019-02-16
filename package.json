@@ -1,11 +1,16 @@
 {
   "name": "scrollinout",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "vue directive scroll in or out",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/YSMJ1994/scrollinout",
   "author": "soberz",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/YSMJ1994/scrollinout.git"
+  }
 }
