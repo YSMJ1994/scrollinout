@@ -1,6 +1,6 @@
 {
   "name": "scrollinout",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "vue directive scroll in or out",
   "main": "index.js",
   "scripts": {
