@@ -12,5 +12,6 @@
   "repository": {
       "type": "git",
       "url": "git+https://github.com/YSMJ1994/scrollinout.git"
-  }
+  },
+  "keywords": ["vue", "directive", "lazy load", "scroll", "scrollinout"]
 }
